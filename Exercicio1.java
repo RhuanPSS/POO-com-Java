@@ -24,9 +24,9 @@ public class Main {
             valMeia += Double.parseDouble(num);
         }
         valMeia *= 0.5;
-        System.out.printf("O total arrecado com ingressos inteiros é: %.2f\n", valInt);
-        System.out.printf("O total arrecado com ingressos meia-entrada é: %.2f\n", valMeia);
-        System.out.printf("O total arrecado na sessão é: %.2f\n", valInt + valMeia);
+        System.out.printf("O total arrecadado com ingressos inteiros é: %.2f\n", valInt);
+        System.out.printf("O total arrecadado com ingressos meia-entrada é: %.2f\n", valMeia);
+        System.out.printf("O total arrecadado na sessão é: %.2f\n", valInt + valMeia);
         System.out.printf("O valor médio pago por ingresso é: %.2f\n", (valInt + valMeia) / (ingrA + ingrB));
 
         read.close();
